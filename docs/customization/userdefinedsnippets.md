@@ -98,6 +98,8 @@ The final generator output has two files: an extension manifest `package.json` w
 ```
 
 Copy the generated snippets folder to a new folder under [your `.vscode/extensions` folder](/docs/extensions/install-extension.md#your-extensions-folder) and restart VS Code.
+***Tip*** On windows 10 Yo code -> console menu may not working correctly(menu arrow not change by keyboard). Not work with GIT_BASH console, cmd.exe without running by admin, and most of IDE integrated terminals(NetBeans, SublimeText, VS Code, VS2015, WebStorm - tested on x64 windows10).
+Works good via "Powershell(Win)" and "cmd.exe running by administrator"
 
 ## Sharing Your Snippets in the Marketplace
 
